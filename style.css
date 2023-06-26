@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    weight: 100vw;
+    height: 27px;
+    background: black;
+}
+
+nav > ul {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+nav li {
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    border-right: 1px solid white;
+    padding: 10px 20px;
+    color: white;
+    background: black;
+}
+
+@media only screen and (min-width: 600px) {
+    
+}
+
+@media only screen and (min-width: 768px) {
+    
+}
+
+@media only screen and (min-width: 992px) {
+
+}
